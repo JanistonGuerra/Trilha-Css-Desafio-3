@@ -1,0 +1,143 @@
+@import url(reset.css);
+
+header{
+    width: 1845px;
+    height: 56px;
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+#logo {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+}
+
+#youtube {
+    width: 90px;
+    height: 20px;
+    padding: 18px 14px 18px 16px;
+}
+
+.pesquisa {
+    width: 732px;
+    height: 40px;
+    flex: 0 1 732px;
+    min-width: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+form {
+    width: 568px;
+    height: 40px;
+    position: relative;
+    flex: 1;
+    flex-basis: 1e-9px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pesquisa-content {
+    width: 536px;
+    height: 40px;
+    margin: 0px 0px 0px 32px;
+    padding: 0px 4px 0px 16px;
+    position: relative;
+    align-items: center;
+    flex: 1;
+    flex-basis: 1e-9px;
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+ width: 484px;
+ height: 30px;
+ box-sizing: border-box;
+ padding: 1px 0;
+ margin: 0;
+}
+
+button {
+height: 30px;
+}
+
+.menu-direito {
+    min-width: 225px;
+    height: 40px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-icons {
+    width: 156px; 
+    height: 40px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.camera-div {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+
+.sino-div {
+    width: 40px;
+    height: 40px;
+}
+
+.foto-div {
+    width: 60px;
+    height: 34px;
+    margin-top: -11px;
+    padding: 1px 6px;
+}
+
+.pesquisa-button {
+    width: 24px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-lateral {
+    width: 218px;
+    height: 860px;
+    top: 56px;
+    padding: 24px;
+}
+
+.img-lateral{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px 90px;
+}
+
+.video-fotos {
+    width: 325px;
+    height: 300px;
+    padding: 1px;
+}
